@@ -1,0 +1,18 @@
+.social__icon {
+  transition: fill var(--animation);
+
+  .social__link:focus &,
+  .social__link:hover & {
+    fill: var(--primary-bcg-color);
+  }
+}
+
+.team-social__icon {
+  @extend .social__icon;
+  fill: #afb1b8;
+}
+
+.footer-social__icon {
+  @extend .social__icon;
+  fill: var(--dark-bcg-text);
+}

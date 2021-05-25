@@ -1,0 +1,58 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--footer-bcg);
+}
+
+.footer__info {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer__contacts {
+  margin-right: 75px;
+}
+
+.footer__logo-link {
+  margin-bottom: 20px;
+}
+
+.address {
+  font-style: inherit;
+}
+
+.address__list {
+  display: block;
+
+  &:not(:last-child) {
+    margin-bottom: 9px;
+  }
+}
+
+.footer__map,
+.footer__contact {
+  line-height: 1.71;
+}
+
+.footer__map {
+  color: var(--dark-bcg-text);
+}
+
+.footer__contact {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer__social {
+  margin-right: 100px;
+}
+
+.footer__title {
+  margin-bottom: 20px;
+
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--dark-bcg-text);
+}

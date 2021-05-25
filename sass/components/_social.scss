@@ -1,0 +1,36 @@
+.social__list {
+  display: flex;
+  justify-content: center;
+}
+
+.social__item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+  transition: background-color var(--animation);
+
+  &:focus,
+  &:hover {
+    background-color: var(--accent-color);
+  }
+}
+
+.team-social__link {
+  @extend .social__link;
+  background-color: var(--primary-bcg-color);
+}
+
+.footer-social__link {
+  @extend .social__link;
+  border: 1px solid transparent;
+  background: rgba(255, 255, 255, 0.1);
+}

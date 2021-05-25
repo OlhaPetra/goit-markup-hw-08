@@ -1,0 +1,27 @@
+.features__item {
+  flex-basis: calc((100% - 30px * 4) / 4);
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.features__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--secondary-bcg-color);
+  border-radius: 4px;
+}
+
+.features__title {
+  margin-bottom: 10px;
+  font-size: var(--font-size-text);
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.features__text {
+  color: var(--primary-text-color);
+  line-height: 1.71;
+}
