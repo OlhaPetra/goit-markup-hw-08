@@ -1035,6 +1035,7 @@ img {
 
 .mobile-menu.is-open {
   opacity: 1;
+  pointer-events: auto;
 }
 
 .mobile-menu-btn {
