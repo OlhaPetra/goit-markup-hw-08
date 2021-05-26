@@ -51,7 +51,7 @@
             +38 096 111 11 11</a>
         </li>
       </ul>
-      <button class="mobile-menu-btn">
+      <button class="mobile-menu-btn" data-menu-button>
         <svg class="mobile-menu-btn__icon" width="40" height="40">
           <use class="mobile-menu-btn__icon--open" href="./images/sprite.svg#icon-menu-mobile"></use>
           <use class="mobile-menu-btn__icon--close" href="./images/sprite.svg#icon-menu-mobile-close"></use>
@@ -60,8 +60,8 @@
     </div>
     </header>
 
-    <div class="mobile-menu">
-    <div class="conteiner">
+    <div class="mobile-menu" data-menu>
+    <div class="conteiner__mobile-menu">
         <ul class="list mobile-menu__list">
           <li class="mobile-menu__item">
             <a class="link mobile-menu__link current-menu" href="./index.html"> Студия </a>
@@ -88,13 +88,13 @@
     <a class="link mobile-menu__social--link" href="#">Instagram</a>
     </li>
   <li>
-    <a class="link mobile-menu__social--link" href="#">Twitter</a>
+    <a class="link mobile-menu__social--link social-between" href="#">Twitter</a>
   </li>
   <li>
-    <a class="link mobile-menu__social--link" href="#">Facebook</a>
+    <a class="link mobile-menu__social--link social-between" href="#">Facebook</a>
   </li>
   <li>
-    <a class="link mobile-menu__social--link" href="#">LinkedIn</a>
+    <a class="link mobile-menu__social--link social-between" href="#">LinkedIn</a>
   </li>
 </ul>
 
@@ -524,5 +524,6 @@
   </div>
   </div>
   <script src="./js/modal.js"></script>
+  <script src="./js/mob-menu.js"></script>
 </body>
 </html>

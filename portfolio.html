@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./css/portfolio.min.css" />
   </head>
   <body>
-<!-- <header class="page-header">
+<header class="page-header">
   <div class="conteiner page-header__menu">
     <a class="logo-link page-header__logo-link" href="./index.html">
       <span class="logo-web">Web</span><span class="logo-studio">Studio</span>
@@ -49,8 +49,55 @@
           +38 096 111 11 11</a>
       </li>
     </ul>
+          <button class="mobile-menu-btn" data-menu-button>
+            <svg class="mobile-menu-btn__icon" width="40" height="40">
+              <use class="mobile-menu-btn__icon--open" href="./images/sprite.svg#icon-menu-mobile"></use>
+              <use class="mobile-menu-btn__icon--close" href="./images/sprite.svg#icon-menu-mobile-close"></use>
+            </svg>
+          </button>
   </div>
-</header> -->
+</header>
+
+    <div class="mobile-menu" data-menu>
+      <div class="conteiner__mobile-menu">
+        <ul class="list mobile-menu__list">
+          <li class="mobile-menu__item">
+            <a class="link mobile-menu__link" href="./index.html"> Студия </a>
+          </li>
+          <li class="mobile-menu__item">
+            <a class="link mobile-menu__link current-menu" href="./portfolio.html"> Портфоило </a>
+          </li>
+          <li class="mobile-menu__item">
+            <a class="link mobile-menu__link" href="#"> Контакты </a>
+          </li>
+        </ul>
+        <ul class="list mobile-menu__address">
+          <li class="page-header__item">
+            <a class="link mobile-menu__address--mail" href="mailto:info@devstudio.com">
+              info@devstudio.com</a>
+          </li>
+          <li class="mobile-menu__item">
+            <a class="link mobile-menu__address--tel" href="tel:+380961111111">
+              +38 096 111 11 11</a>
+          </li>
+        </ul>
+        <ul class="list mobile-menu__social">
+          <li>
+            <a class="link mobile-menu__social--link" href="#">Instagram</a>
+          </li>
+          <li>
+            <a class="link mobile-menu__social--link social-between" href="#">Twitter</a>
+          </li>
+          <li>
+            <a class="link mobile-menu__social--link social-between" href="#">Facebook</a>
+          </li>
+          <li>
+            <a class="link mobile-menu__social--link social-between" href="#">LinkedIn</a>
+          </li>
+        </ul>
+    
+      </div>
+    </div>
 
     <main>
       <section class="projects section">
@@ -316,4 +363,5 @@
       </div>
     </footer>
   </body>
+      <script src="./js/mob-menu.js"></script>
 </html>
