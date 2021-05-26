@@ -8,12 +8,6 @@
 }
 
 .page-header__logo-link {
-  @media screen and (max-width: 767.99px) {
-    display: block;
-  }
-
-
-.page-header__logo-link {
   @media screen and (min-width: 768px) {
     margin-right: 88px;
   }
@@ -66,6 +60,10 @@
 .page-header__address {
   color: var(--primary-text-color);
   margin-left: auto;
+
+  @media screen and (min-width: 768px) and (max-width: 1600px) {
+    flex-direction: column;
+  }
 }
 
 .page-header__address--item {
