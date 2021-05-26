@@ -8,7 +8,15 @@
 }
 
 .page-header__logo-link {
-  margin-right: 93px;
+  @media screen and (min-width: 768px) {
+    margin-right: 88px;
+  }
+
+  .page-header__logo-link {
+    @media screen and (min-width: 1600px) {
+      margin-right: 93px;
+    }
+  }
 }
 
 .current {
