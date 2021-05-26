@@ -10,6 +10,15 @@
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1600px) {
+  .footer__contacts-social {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+}
+
 @media screen and (min-width: 1600px) {
   .footer__info {
     display: flex;
@@ -18,8 +27,12 @@
 }
 
 .footer__contacts {
-  @media screen and (max-width: 1599.99px) {
+  @media screen and (max-width: 767.99px) {
     margin-bottom: 60px;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-right: 165px;
   }
 
   @media screen and (min-width: 1600px) {
