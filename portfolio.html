@@ -15,51 +15,54 @@
     <link rel="stylesheet" href="./css/portfolio.min.css" />
   </head>
   <body>
-<header class="page-header">
-  <div class="conteiner page-header__menu">
-    <a class="logo-link page-header__logo-link" href="./index.html">
-      <span class="logo-web">Web</span><span class="logo-studio">Studio</span>
-    </a>
-    <nav>
-      <ul class="list page-header__list">
-        <li class="page-header__item">
-          <a class="link page-header__link" href="./index.html"> Студия </a>
-        </li>
-        <li class="page-header__item">
-          <a class="link page-header__link current" href="./portfolio.html"> Портфоило </a>
-        </li>
-        <li class="page-header__item">
-          <a class="link page-header__link" href="#"> Контакты </a>
-        </li>
-      </ul>
-    </nav>
-    <ul class="list page-header__list page-header__address">
-      <li class="page-header__item">
-        <a class="link page-header__link page-header__address--item" href="mailto:info@devstudio.com">
-          <svg class="page-header__address--icon" width="16" height="12">
-            <use href="./images/sprite.svg#icon-mail"></use>
-          </svg>
-          info@devstudio.com</a>
-      </li>
-      <li class="page-header__item">
-        <a class="link page-header__link page-header__address--item" href="tel:+380961111111">
-          <svg class="page-header__address--icon" width="10" height="16">
-            <use href="./images/sprite.svg#icon-tel"></use>
-          </svg>
-          +38 096 111 11 11</a>
-      </li>
-    </ul>
-          <button class="mobile-menu-btn" data-menu-button>
-            <svg class="mobile-menu-btn__icon" width="40" height="40">
-              <use class="mobile-menu-btn__icon--open" href="./images/sprite.svg#icon-menu-mobile"></use>
-              <use class="mobile-menu-btn__icon--close" href="./images/sprite.svg#icon-menu-mobile-close"></use>
-            </svg>
-          </button>
-  </div>
-</header>
 
-    <div class="mobile-menu conteiner__mobile-menu" data-menu>
-         <ul class="list mobile-menu__list">
+    <header class="page-header">
+      <div class="conteiner page-header__menu">
+        <a class="logo-link page-header__logo-link" href="./index.html">
+          <span class="logo-web">Web</span><span class="logo-studio">Studio</span>
+        </a>
+        <nav>
+          <ul class="list page-header__list">
+            <li class="page-header__item">
+              <a class="link page-header__link current" href="./index.html"> Студия </a>
+            </li>
+            <li class="page-header__item">
+              <a class="link page-header__link" href="./portfolio.html"> Портфоило </a>
+            </li>
+            <li class="page-header__item">
+              <a class="link page-header__link" href="#"> Контакты </a>
+            </li>
+          </ul>
+        </nav>
+    
+        <ul class="list page-header__list page-header__address">
+          <li class="page-header__item">
+            <a class="link page-header__link page-header__address--item" href="mailto:info@devstudio.com">
+              <svg class="page-header__address--icon" width="16" height="12">
+                <use href="./images/sprite.svg#icon-mail"></use>
+              </svg>
+              info@devstudio.com</a>
+          </li>
+          <li class="page-header__item">
+            <a class="link page-header__link page-header__address--item" href="tel:+380961111111">
+              <svg class="page-header__address--icon" width="10" height="16">
+                <use href="./images/sprite.svg#icon-tel"></use>
+              </svg>
+              +38 096 111 11 11</a>
+          </li>
+        </ul>
+        <button class="mobile-menu-btn" data-menu-button>
+          <svg class="mobile-menu-btn__icon" width="40" height="40">
+            <use class="mobile-menu-btn__icon--open" href="./images/sprite.svg#icon-menu-mobile"></use>
+            <use class="mobile-menu-btn__icon--close" href="./images/sprite.svg#icon-menu-mobile-close"></use>
+          </svg>
+        </button>
+      </div>
+    </header>
+    
+    <div class="mobile-menu" data-menu>
+      <div class="conteiner__mobile-menu">
+        <ul class="list mobile-menu__list">
           <li class="mobile-menu__item">
             <a class="link mobile-menu__link" href="./index.html"> Студия </a>
           </li>
@@ -94,7 +97,10 @@
             <a class="link mobile-menu__social--link social-between" href="#">LinkedIn</a>
           </li>
         </ul>
+    
+      </div>
     </div>
+
 
     <main>
       <section class="projects section">
