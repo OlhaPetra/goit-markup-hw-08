@@ -30,7 +30,7 @@
   background-color: transparent;
   border: none;
   cursor: pointer;
-  z-index: 99;
+  z-index: 2;
 
   @media screen and (min-width: 768px) {
     display: none;
@@ -51,6 +51,7 @@
 .mobile-menu-btn__icon--open {
   fill: black;
   transition: fill var(--animation);
+  z-index: 2;
 
   .mobile-menu-btn:focus &,
   .mobile-menu-btn:hover & {
@@ -61,6 +62,7 @@
 .mobile-menu-btn__icon--close {
   fill: black;
   transition: fill var(--animation);
+  z-index: 2;
 
   .mobile-menu-btn:focus &,
   .mobile-menu-btn:hover & {
