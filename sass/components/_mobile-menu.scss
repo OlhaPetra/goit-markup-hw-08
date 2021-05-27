@@ -134,6 +134,10 @@
   line-height: 1.222;
   letter-spacing: 0.02em;
   color: var(--accent-color);
+
+  @media screen and (max-width: 479.99px) {
+    font-size: 14px;
+  }
 }
 
 .social-between::before {

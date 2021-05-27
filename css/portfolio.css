@@ -899,6 +899,12 @@ img {
   color: var(--accent-color);
 }
 
+@media screen and (max-width: 479.99px) {
+  .mobile-menu__social--link {
+    font-size: 14px;
+  }
+}
+
 .social-between::before {
   content: "";
   margin-left: 10px;
