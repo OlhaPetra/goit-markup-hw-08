@@ -711,9 +711,6 @@ img {
     display: flex;
     align-items: baseline;
   }
-  .footer__contacts-social:not(:last-child) {
-    margin-right: 75px;
-  }
   .footer__info {
     display: flex;
     align-items: baseline;
@@ -729,6 +726,12 @@ img {
 @media screen and (min-width: 768px) {
   .footer__contacts {
     margin-right: 165px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .footer__contacts {
+    margin-right: 70px;
   }
 }
 
@@ -918,6 +921,13 @@ img {
   transform: translate(-50%, -50%) scale(1.2);
 }
 
+@media screen and (min-width: 480px) {
+  .modal {
+    width: 450px;
+    height: 609px;
+  }
+}
+
 @media screen and (min-width: 1600px) {
   .modal {
     width: 528px;
@@ -1026,10 +1036,16 @@ img {
 }
 
 .checkbox__label {
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+}
+
+@media screen and (min-width: 1600px) {
+  .checkbox__label {
+    font-size: 14px;
+  }
 }
 
 .checkbox__label::before {

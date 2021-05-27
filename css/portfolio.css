@@ -585,9 +585,6 @@ img {
     display: flex;
     align-items: baseline;
   }
-  .footer__contacts-social:not(:last-child) {
-    margin-right: 75px;
-  }
   .footer__info {
     display: flex;
     align-items: baseline;
@@ -603,6 +600,12 @@ img {
 @media screen and (min-width: 768px) {
   .footer__contacts {
     margin-right: 165px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .footer__contacts {
+    margin-right: 70px;
   }
 }
 
