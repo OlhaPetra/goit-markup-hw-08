@@ -171,27 +171,39 @@
         <h2 class="title">Чем мы занимаемся</h2>
         <ul class="list flex-conteiner">
           <li class="work__item">
-            <img class="work__image"
-              src="./images/box1.jpg"
-              alt="создание програмного обеспечения"
-              width="370"
-              height="294"/>
-              <p class="work__description">Десктопные приложения</p>
+          <picture>
+          <source srcset="./images/desktop/work/work-1webp@1x.webp 1x, ./images/desktop/work/work-1webp@2x.webp 2x" media="(min-width: 1600px)"
+            type="image/webp" />
+          <source srcset="./images/desktop/work/work-1@1x.jpg 1x, ./images/desktop/work/work-1@2x.jpg 2x" media="(min-width: 1600px)"
+            type="image/jpeg" />
+          <img class="work__image"
+          src="./images/desktop/work/work-1@1x.jpg"
+          alt="создание програмного обеспечения для десктопов"
+          width="370"
+          height="294"/>  
+          </picture>
+          <p class="work__description">Десктопные приложения</p>
           </li>
           <li class="work__item">
-            <img class="work__image"
-              src="./images/box2.jpg"
-              alt="разработка приложения"
-              width="370"
-              height="294"/>
-              <p class="work__description">Мобильные приложения</p>
+          <picture>
+            <source srcset="./images/desktop/work/work-2webp@1x.webp 1x, ./images/desktop/work/work-2webp@2x.webp 2x"
+              media="(min-width: 1600px)" type="image/webp" />
+            <source srcset="./images/desktop/work/work-2@1x.jpg 1x, ./images/desktop/work/work-2@2x.jpg 2x"
+              media="(min-width: 1600px)" type="image/jpeg" />
+            <img class="work__image" src="./images/desktop/work/work-2@1x.jpg"
+              alt="разработка мобильного приложения" width="370" height="294" />
+          </picture>
+          <p class="work__description">Мобильные приложения</p>
           </li>
           <li class="work__item">
-            <img class="work__image"
-              src="./images/box3.jpg"
-              alt="дизайн"
-              width="370"
-              height="294"/>
+          <picture>
+            <source srcset="./images/desktop/work/work-3webp@1x.webp 1x, ./images/desktop/work/work-3webp@2x.webp 2x"
+              media="(min-width: 1600px)" type="image/webp" />
+            <source srcset="./images/desktop/work/work-3@1x.jpg 1x, ./images/desktop/work/work-3@2x.jpg 2x"
+              media="(min-width: 1600px)" type="image/jpeg" />
+            <img class="work__image" src="./images/desktop/work/work-3@1x.jpg" alt="дизайн" width="370"
+              height="294" />
+          </picture>
               <p class="work__description">Дизайнерские решения</p>
           </li>
         </ul>
@@ -204,16 +216,16 @@
         <ul class="list flex-conteiner">
           <li class="team__item">
             <picture>
-              <source srcset="./images/desktop/team/team-1webp@1x.wbp, ./images/desktop/team/team-1webp@2x.wbp" media="(min-width:1600px)"
-                type="image/wbp" />
-              <source srcset="./images/tablet/team/team-1webp@1x.wbp, ./images/tablet/team/team-1webp@2x.wbp"
-                media="(min-width:768px)" type="image/wbp" />
-              <source srcset="./images/mobile/team/team-1webp@1x.wbp, ./images/mobile/team/team-1webp@2x.wbp"
-                media="(max-width:767px)" type="image/wbp" />              
-              <source srcset="./images/desktop/team/team-1@1x.jpg, ./images/desktop/team/team-1@2x.jpg" media="(min-width:1600px)" type="image/jpg" />
-              <source srcset="./images/tablet/team/team-1@1x.jpg, ./images/tablet/team/team-1@2x.jpg" media="(min-width:768px)"
+              <source srcset="./images/desktop/team/team-1webp@1x.webp 1x, ./images/desktop/team/team-1webp@2x.webp 2x" media="(min-width:1600px)"
+                type="image/webp" />
+              <source srcset="./images/tablet/team/team-1webp@1x.webp 1x, ./images/tablet/team/team-1webp@2x.webp 2x"
+                media="(min-width:768px)" type="image/webp" />
+              <source srcset="./images/mobile/team/team-1webp@1x.webp 1x, ./images/mobile/team/team-1webp@2x.webp 2x"
+                media="(max-width:767px)" type="image/webp" />              
+              <source srcset="./images/desktop/team/team-1@1x.jpg 1x, ./images/desktop/team/team-1@2x.jpg 2x" media="(min-width:1600px)" type="image/jpg" />
+              <source srcset="./images/tablet/team/team-1@1x.jpg 1x, ./images/tablet/team/team-1@2x.jpg 2x" media="(min-width:768px)"
                 type="image/jpg" />
-              <source srcset="./images/mobile/team/team-1@1x.jpg, ./images/mobile/team/team-1@2x.jpg" media="(max-width:767px)"
+              <source srcset="./images/mobile/team/team-1@1x.jpg 1x, ./images/mobile/team/team-1@2x.jpg 2x" media="(max-width:767px)"
                 type="image/jpg" />
             <img class="team__photo"
               src="./images/mobile/team/team-1@1x.jpg"
@@ -256,17 +268,17 @@
           </li>
           <li class="team__item">
             <picture>
-               <source srcset="./images/desktop/team/team-2webp@1x.wbp, ./images/desktop/team/team-2webp@2x.wbp"
-                media="(min-width:1600px)" type="image/wbp" />
-              <source srcset="./images/tablet/team/team-2webp@1x.wbp, ./images/tablet/team/team-2webp@2x.wbp"
-                media="(min-width:768px)" type="image/wbp" />
-              <source srcset="./images/mobile/team/team-2webp@1x.wbp, ./images/mobile/team/team-2webp@2x.wbp"
-                media="(max-width:767px)" type="image/wbp" />
-              <source srcset="./images/desktop/team/team-2@1x.jpg, ./images/desktop/team/team-2@2x.jpg" media="(min-width:1600px)"
+               <source srcset="./images/desktop/team/team-2webp@1x.webp 1x, ./images/desktop/team/team-2webp@2x.webp 2x"
+                media="(min-width:1600px)" type="image/webp" />
+              <source srcset="./images/tablet/team/team-2webp@1x.webp 1x, ./images/tablet/team/team-2webp@2x.webp 2x"
+                media="(min-width:768px)" type="image/webp" />
+              <source srcset="./images/mobile/team/team-2webp@1x.webp 1x, ./images/mobile/team/team-2webp@2x.webp 2x"
+                media="(max-width:767px)" type="image/webp" />
+              <source srcset="./images/desktop/team/team-2@1x.jpg 1x, ./images/desktop/team/team-2@2x.jpg 2x" media="(min-width:1600px)"
                 type="image/jpg" />
-              <source srcset="./images/tablet/team/team-2@1x.jpg, ./images/tablet/team/team-2@2x.jpg" media="(min-width:768px)"
+              <source srcset="./images/tablet/team/team-2@1x.jpg 1x, ./images/tablet/team/team-2@2x.jpg 2x" media="(min-width:768px)"
                 type="image/jpg" />
-              <source srcset="./images/mobile/team/team-2@1x.jpg, ./images/mobile/team/team-2@2x.jpg" media="(max-width:767px)"
+              <source srcset="./images/mobile/team/team-2@1x.jpg 1x, ./images/mobile/team/team-2@2x.jpg 2x" media="(max-width:767px)"
                 type="image/jpg" />
               <img class="team__photo" src="./images/mobile/team/team-2@1x.jpg" alt="Разработчик Ольга Репина"
                 width="450" height="460" />
@@ -305,17 +317,17 @@
           </li>
           <li class="team__item">
             <picture>
-              <source srcset="./images/desktop/team/team-3webp@1x.wbp, ./images/desktop/team/team-3webp@2x.wbp"
-                media="(min-width:1600px)" type="image/wbp" />
-              <source srcset="./images/tablet/team/team-3webp@1x.wbp, ./images/tablet/team/team-3webp@2x.wbp"
-                media="(min-width:768px)" type="image/wbp" />
-              <source srcset="./images/mobile/team/team-3webp@1x.wbp, ./images/mobile/team/team-3webp@2x.wbp"
-                media="(max-width:767px)" type="image/wbp" />
-              <source srcset="./images/desktop/team/team-3@1x.jpg, ./images/desktop/team/team-3@2x.jpg" media="(min-width:1600px)"
+              <source srcset="./images/desktop/team/team-3webp@1x.webp 1x, ./images/desktop/team/team-3webp@2x.webp 2x"
+                media="(min-width:1600px)" type="image/webp" />
+              <source srcset="./images/tablet/team/team-3webp@1x.webp 1x, ./images/tablet/team/team-3webp@2x.webp 2x"
+                media="(min-width:768px)" type="image/webp" />
+              <source srcset="./images/mobile/team/team-3webp@1x.webp 1x, ./images/mobile/team/team-3webp@2x.webp 2x"
+                media="(max-width:767px)" type="image/webp" />
+              <source srcset="./images/desktop/team/team-3@1x.jpg 1x, ./images/desktop/team/team-3@2x.jpg 2x" media="(min-width:1600px)"
                 type="image/jpg" />
-              <source srcset="./images/tablet/team/team-3@1x.jpg, ./images/tablet/team/team-3@2x.jpg" media="(min-width:768px)"
+              <source srcset="./images/tablet/team/team-3@1x.jpg 1x, ./images/tablet/team/team-3@2x.jpg 2x" media="(min-width:768px)"
                 type="image/jpg" />
-              <source srcset="./images/mobile/team/team-3@1x.jpg, ./images/mobile/team/team-3@2x.jpg" media="(max-width:767px)"
+              <source srcset="./images/mobile/team/team-3@1x.jpg 1x, ./images/mobile/team/team-3@2x.jpg 2x" media="(max-width:767px)"
                 type="image/jpg" />
               <img class="team__photo" src="./images/mobile/team/team-3@1x.jpg" alt="Маркетолог Николай Тарасов" width="450"
                 height="460" />
@@ -353,17 +365,17 @@
           </li>
           <li class="team__item">
             <picture>
-              <source srcset="./images/desktop/team/team-4webp@1x.wbp, ./images/desktop/team/team-4webp@2x.wbp"
-                media="(min-width:1600px)" type="image/wbp" />
-              <source srcset="./images/tablet/team/team-4webp@1x.wbp, ./images/tablet/team/team-4webp@2x.wbp"
-                media="(min-width:768px)" type="image/wbp" />
-              <source srcset="./images/mobile/team/team-4webp@1x.wbp, ./images/mobile/team/team-4webp@2x.wbp"
-                media="(max-width:767px)" type="image/wbp" />
-              <source srcset="./images/desktop/team/team-4@1x.jpg, ./images/desktop/team/team-4@2x.jpg" media="(min-width:1600px)"
+              <source srcset="./images/desktop/team/team-4webp@1x.webp 1x, ./images/desktop/team/team-4webp@2x.webp 2x"
+                media="(min-width:1600px)" type="image/webp" />
+              <source srcset="./images/tablet/team/team-4webp@1x.webp 1x, ./images/tablet/team/team-4webp@2x.webp 2x"
+                media="(min-width:768px)" type="image/webp" />
+              <source srcset="./images/mobile/team/team-4webp@1x.webp 1x, ./images/mobile/team/team-4webp@2x.webp 2x"
+                media="(max-width:767px)" type="image/webp" />
+              <source srcset="./images/desktop/team/team-4@1x.jpg 1x, ./images/desktop/team/team-4@2x.jpg 2x" media="(min-width:1600px)"
                 type="image/jpg" />
-              <source srcset="./images/tablet/team/team-4@1x.jpg, ./images/tablet/team/team-4@2x.jpg" media="(min-width:768px)"
+              <source srcset="./images/tablet/team/team-4@1x.jpg 1x, ./images/tablet/team/team-4@2x.jpg 2x" media="(min-width:768px)"
                 type="image/jpg" />
-              <source srcset="./images/mobile/team/team-4@1x.jpg, ./images/mobile/team/team-4@2x.jpg" media="(max-width:767px)"
+              <source srcset="./images/mobile/team/team-4@1x.jpg 1x, ./images/mobile/team/team-4@2x.jpg 2x" media="(max-width:767px)"
                 type="image/jpg" />
               <img class="team__photo" src="./images/mobile/team/team-4@1x.jpg" alt="Проектировщик интерфейса Михаил Ермаков" width="450"
                 height="460" />
