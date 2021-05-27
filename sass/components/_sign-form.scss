@@ -1,5 +1,5 @@
 .sign__form {
-  @media screen and (min-width: 1600px) {
+  @media screen and (min-width: 1200px) {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,7 +28,7 @@
     width: 450px;
   }
 
-  @media screen and (min-width: 1600px) {
+  @media screen and (min-width: 1200px) {
     width: 358px;
     margin-bottom: 0px;
   }
@@ -80,7 +80,7 @@
     right: 295px;
   }
 
-  @media screen and (min-width: 1600px) {
+  @media screen and (min-width: 1200px) {
     right: 25px;
   }
 }

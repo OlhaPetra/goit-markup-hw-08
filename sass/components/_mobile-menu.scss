@@ -4,18 +4,22 @@
   flex-direction: column;
   top: 0;
   left: 0;
-
-  opacity: 0;
-  pointer-events: none;
-  z-index: 1;
-
   width: 100%;
   height: 100vh;
+  opacity: 0;
+  z-index: 1;
+
+  overflow: scroll;
+  pointer-events: none;
+
   background-color: var(--primary-bcg-color);
 
   &.is-open {
     opacity: 1;
     pointer-events: auto;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
   }
   transition: opacity var(--animation);
 }
@@ -101,9 +105,9 @@
   color: var(--accent-color);
 }
 
-.mobile-menu__list {
+/*.mobile-menu__list {
   margin-bottom: 302px;
-}
+}*/
 
 .mobile-menu__address--tel {
   font-weight: 500;
