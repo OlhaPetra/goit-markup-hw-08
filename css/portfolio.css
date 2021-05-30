@@ -97,7 +97,7 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
-  outline: 1px solid pink;
+  /*outline: 1px solid pink;*/
 }
 
 body {

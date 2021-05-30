@@ -97,7 +97,7 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
-  outline: 1px solid pink;
+  /*outline: 1px solid pink;*/
 }
 
 body {
@@ -670,14 +670,13 @@ img {
 @media screen and (max-width: 1199.99px) {
   .clients__list {
     flex-wrap: wrap;
-    margin-right: -30px;
     margin-bottom: -30px;
   }
 }
 
 @media screen and (max-width: 767.99px) {
   .clients__item {
-    flex-basis: calc((100% - 30px * 2) / 2);
+    flex-basis: calc((100% - 30px) / 2);
     padding-bottom: 30px;
   }
   .clients__item:nth-child(2n) {
@@ -687,7 +686,7 @@ img {
 
 @media screen and (min-width: 768px) and (max-width: 1199.99px) {
   .clients__item {
-    flex-basis: calc((100% - 30px * 3) / 3);
+    flex-basis: calc((100% - 30px * 2) / 3);
     padding-bottom: 30px;
   }
   .clients__item:not(:nth-child(3n)) {
