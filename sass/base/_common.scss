@@ -6,7 +6,7 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
-  /*outline: 1px solid pink;*/
+  outline: 1px solid pink;
 }
 
 body {
@@ -16,6 +16,10 @@ body {
   font-family: var(--font-family-text), sans-serif;
   font-size: var(--font-size-text);
   letter-spacing: 0.03em;
+
+  &.overflow-is-hidden {
+    overflow: hidden;
+  }
 }
 
 h1,

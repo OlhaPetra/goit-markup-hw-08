@@ -18,11 +18,12 @@
   pointer-events: none;
   transition: opacity var(--animation);
 
+  overflow: hidden;
+
   &.is-open {
     @media screen and (max-width: 768px) {
       opacity: 1;
       pointer-events: auto;
-      overflow-y: hidden;
     }
   }
 
