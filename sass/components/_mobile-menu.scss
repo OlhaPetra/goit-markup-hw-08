@@ -14,7 +14,6 @@
   z-index: 99;
   background-color: var(--primary-bcg-color);
 
-  overflow: scroll;
   opacity: 0;
   pointer-events: none;
   transition: opacity var(--animation);
@@ -23,8 +22,7 @@
     @media screen and (max-width: 768px) {
       opacity: 1;
       pointer-events: auto;
-      overflow: hidden;
-      overflow-y: scroll;
+      overflow-y: hidden;
     }
   }
 

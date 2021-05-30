@@ -954,8 +954,8 @@ img {
   transition: transform var(--animation);
   padding: 40px;
   z-index: 199;
-  height: auto;
-  max-height: 100%;
+  margin-right: auto;
+  margin-left: auto;
   max-width: 95%;
   background: var(--primary-bcg-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -1134,7 +1134,6 @@ img {
   padding: 48px 40px;
   z-index: 99;
   background-color: var(--primary-bcg-color);
-  overflow: scroll;
   opacity: 0;
   pointer-events: none;
   transition: opacity var(--animation);
@@ -1144,8 +1143,7 @@ img {
   .mobile-menu.is-open {
     opacity: 1;
     pointer-events: auto;
-    overflow: hidden;
-    overflow-y: scroll;
+    overflow-y: hidden;
   }
 }
 

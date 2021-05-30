@@ -786,7 +786,6 @@ img {
   padding: 48px 40px;
   z-index: 99;
   background-color: var(--primary-bcg-color);
-  overflow: scroll;
   opacity: 0;
   pointer-events: none;
   transition: opacity var(--animation);
@@ -796,8 +795,7 @@ img {
   .mobile-menu.is-open {
     opacity: 1;
     pointer-events: auto;
-    overflow: hidden;
-    overflow-y: scroll;
+    overflow-y: hidden;
   }
 }
 
