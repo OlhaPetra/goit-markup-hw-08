@@ -63,6 +63,12 @@
   transform: translateY(100%);
 
   display: flex;
+
+  @media screen and (max-width: 440px) {
+    padding-top: 20px;
+    font-size: 15px;
+  }
+
   padding-top: 63px;
   padding-left: 24px;
   padding-right: 24px;

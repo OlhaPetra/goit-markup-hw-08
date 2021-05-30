@@ -6,7 +6,8 @@
   --footer-bcg: #2f303a;
   --accent-color: #2196f3;
   --dark-bcg-text: #ffffff;
-  --font-family-text: Roboto;
+  --font-family-text: Roboto, sans-serif;
+  --logo-font-text: Raleway, sans-serif;
   --font-size-text: 14px;
   --animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -159,7 +160,7 @@ img {
   padding-right: 15px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767.99px) {
   .conteiner {
     max-width: 480px;
   }
@@ -245,7 +246,7 @@ img {
 
 .logo-web,
 .logo-studio {
-  font-family: Raleway;
+  font-family: var(--logo-font-text);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -335,8 +336,13 @@ img {
 .page-header__menu {
   display: flex;
   align-items: center;
-  padding-top: 26px;
-  padding-bottom: 26px;
+}
+
+@media screen and (min-width: 768px) {
+  .page-header__menu {
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -552,6 +558,13 @@ img {
   color: var(--dark-bcg-text);
   background-color: rgba(33, 150, 243, 0.9);
   transition: transform var(--animation);
+}
+
+@media screen and (max-width: 440px) {
+  .overflow__text {
+    padding-top: 20px;
+    font-size: 15px;
+  }
 }
 
 .project__item:hover .overflow__text,
@@ -795,9 +808,6 @@ img {
 }
 
 .mobile-menu-btn {
-  position: absolute;
-  top: 10px;
-  right: 15px;
   width: 40px;
   height: 40px;
   background-color: transparent;
@@ -898,7 +908,7 @@ img {
   font-size: 24px;
   line-height: 1.167;
   letter-spacing: 0.02em;
-  color: var --primary-text-color;
+  color: var(--primary-text-color);
 }
 
 .mobile-menu__social {
